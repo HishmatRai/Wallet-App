@@ -1,0 +1,90 @@
+import { StyleSheet } from "react-native";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#edf1f9",
+    height: hp("100%"),
+  },
+  text: {
+    color: "#485068",
+    textAlign: "center",
+    alignSelf: "center",
+    fontFamily: "TitilliumWeb-Regular",
+    marginTop: hp("2%"),
+    fontSize: 15,
+  },
+  title: {
+    color: "#0D1F3C",
+    textAlign: "center",
+    alignSelf: "center",
+    marginTop: hp("3%"),
+    fontFamily: "TitilliumWeb-Bold",
+    fontSize: 36,
+  },
+  slide: {
+    flex: 1,
+    backgroundColor: "#edf1f9",
+    height: hp("100%"),
+  },
+  buttonCircle: {
+    borderColor: "#347AF0",
+    borderWidth: 1,
+    padding: "4%",
+    borderRadius: 50,
+    width: "78%",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#347AF0",
+    marginRight: "40%",
+    // marginTop:-50
+  },
+  textDone: {
+    color: "white",
+    textAlign: "center",
+    fontWeight: "bold",
+    fontFamily: "TitilliumWeb-SemiBold",
+    fontSize: 19,
+  },
+  nextBtn: {
+    backgroundColor: "white",
+    borderColor: "#347AF0",
+    borderWidth: 1,
+    padding: "4%",
+    paddingLeft: "20%",
+    paddingRight: "20%",
+    borderRadius: 50,
+    marginRight: "22%",
+  },
+  _header_image: {
+    height: hp("30%"),
+    alignItems: "center",
+  },
+  _skip_btn_text: {
+    color: "#347AF0",
+    marginHorizontal: 20,
+    alignItems: "flex-end",
+    alignSelf: "flex-end",
+    marginTop: hp("3%"),
+    fontFamily: "TitilliumWeb-SemiBold",
+    fontSize: 19,
+  },
+  _data_main: {
+    flex: 1,
+    backgroundColor: "#fff",
+    marginTop: hp("5%"),
+    paddingTop: hp("4%"),
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+  },
+  _next_btn_text: {
+    color: "#347AF0",
+    textAlign: "center",
+    fontWeight: "bold",
+    fontFamily: "TitilliumWeb-SemiBold",
+    fontSize: 19,
+  },
+});
